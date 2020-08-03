@@ -20,6 +20,7 @@ namespace AspNetCore31DemoLog4Net.Controllers
 
         public IActionResult Index()
         {
+            this._logger.LogWarning("12345678");
             return View();
         }
 
